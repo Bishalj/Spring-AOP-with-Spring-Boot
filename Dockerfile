@@ -8,7 +8,7 @@ MAINTAINER bishal.j@turtlemint.com
 VOLUME /tmp
 
 # Make port 8009 available to the world outside this container
-EXPOSE 8080
+EXPOSE 8009
 
 WORKDIR .
 RUN gradle build
