@@ -3,7 +3,8 @@ FROM gradle:4.4.0-alpine
 
 # Add Maintainer Info
 MAINTAINER bishal.j@turtlemint.com
-
+ENV project=springAOP pathTmp=./tmp
+ 
 # Add a volume pointing to /tmp
 VOLUME /tmp
 
